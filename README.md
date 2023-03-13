@@ -1,6 +1,6 @@
-# **Python Project from zero**
+# **<ins>Python Project from zero</ins>**
 
-## **Project structure**
+## **1. <ins>Project structure</ins>**
 
 	-  main.py: is the main file of project, this file is used for execute the program
 
@@ -26,13 +26,14 @@
 	-  tests/: folder with all project tests.
 
 
-## **Virtual Enviroment**
+## **2. <ins>Virtual Enviroment</ins>**
 
 Enviroment separated from local system for install all libraries that need the project.
 
 There are many libraries for create a virtual enviroment but I'm going to used 'venv'
 
 ### **VENV**
+
 NOTE: add enviroment folder in .gitignore file
 
 
@@ -49,11 +50,11 @@ NOTE: add enviroment folder in .gitignore file
 	-  Windows: Scripts\bin\activate
 	-  Linux: Source env/bin/activate
 
-## **Linter**
+## **3. <ins>Linter</ins>**
 
 Linter is plugging for check if code is good formating.
 
-There are many linters, in this case I'm going to used pylint.
+There are many linters, in this case I'm going to used 'PyLint'.
 
 ### **PyLint**
 
@@ -63,6 +64,32 @@ Configuration file is .pylintrc
 
 	-  pip install pylint
 
-## **Code Formatting**
+#### **Execute**
 
+For execute pylint is used pylint plus folder name.  
+
+	-  pylint . 
+
+The dot means all project.
+
+## **4. <ins>Code Formatter</ins>**
+
+Code formatting format code to correct and standart form.
+ 
+In this case I'm going to used 'Black'
+
+### **Black**
+
+#### **Installation**
+
+	-  pip install black
+	-  pip install black[jupyter]: for use black with jupyter notebook
+
+#### **Execute**
+
+For execute black is used black plus folder name
+
+	-  black .
+
+The dot means all project
 
