@@ -121,5 +121,5 @@ If there is some error, git don't do the commit.
 ### **Steps**
 
 	- pip install pre-commit
-	- create file named .pre-commit-config.yml in root
+	- create file named .pre-commit-config.yaml in root
 	- pre-commit install    
