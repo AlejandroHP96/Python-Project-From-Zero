@@ -93,3 +93,33 @@ For execute black is used black plus folder name
 
 The dot means all project
 
+# **<ins>CI/CD</ins>**
+
+Continuous Intagration (CI): this is the practice that involves regulary  and automatically building, testing and integratinmg code changes into shared code repository.
+
+Continuous Deployment (CD): this is the practice of automatically deploying software changes to production as soon as they pass automated tests, without any manual intervention.
+
+## **<ins>GitHub Actions</ins>**
+
+GitHub Actions is a feature of the GitHub platform that provides a way to automate software development workflows directly within GitHub.
+We are going to used for continuos integration(CI)
+
+### **Steps**
+
+	- Create folder .github/workflows in root folder.
+	- Add the file that GitHub Actions going to verify (You can create more than one): script_name-workflows.yml
+	- Push code and GitHib Actions recognize automatically.
+
+NOTE: Don't forget give to github token permission for use workflow.
+
+## **<ins>Pre-commit</ins>**
+
+We going used pre-commit for check some things before git will do the commit.
+
+If there is some error, git don't do the commit.
+
+### **Steps**
+
+	- pip install pre-commit
+	- create file named .pre-commit-config.yml in root
+	- pre-commit install    

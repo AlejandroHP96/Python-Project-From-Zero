@@ -1,0 +1,24 @@
+repos:
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest
+        language: system
+        pass_filenames: false
+        stages: [commit]
+        types: [python]
+      - id: black
+        name: black
+        entry: black
+        language: system
+        stage: [commit]
+        types: [python]
+      - id: pylint
+        name: pylint
+        entry: pylint
+        args: ["--rcfile=.pylintrc"]
+        language: system
+        pass_filenames: true
+        stages: [commit]
+        types: [python]
