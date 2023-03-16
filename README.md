@@ -39,7 +39,7 @@ NOTE: add enviroment folder in .gitignore file
 
 #### **Installation**
 
-	-  pip install venv
+	-  pip install virtualenv
 
 #### **Create Virtual Enviroment**
 
