@@ -4,7 +4,7 @@
 	
 1. [Project Structure](#Project structure)
 
-## **1. <ins>Project structure</ins>**
+## Project structure
 
 	-  main.py: is the main file of project, this file is used for execute the program
 
