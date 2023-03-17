@@ -2,7 +2,7 @@
 
 ## **<ins>Summary</ins>**
 	
-1. [Project Structure](#Project structure)
+- [Project Structure](#Project structure)
 
 ## Project structure
 
