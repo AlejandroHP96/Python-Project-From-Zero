@@ -2,10 +2,10 @@
 
 ## Indice
 	
-- [Project structure](#Project-structure)
-- [ERROR CONTROL](##error-control)
+- [Project Structure](#Project-structure)
+- [Error Control](#error-control)
 
-## Project structure
+## Project Structure
 
 ### 1. **<ins>Structure</ins>**
 
@@ -103,6 +103,8 @@ For execute black is used black plus folder name
 	-  black .
 
 The dot means all project
+
+## Error control
 
 ### **1. <ins>CI/CD</ins>**
 
