@@ -2,9 +2,10 @@
 
 ## Indice
 	
-- [1. <ins>Project structure</ins>](#Project-structure)
+- [Project structure](#Project-structure)
+- [Virtual Eniroment](##virtual-enviroment)
 
-## 1. <ins>Project structure</ins>
+## Project structure
 
 	-  main.py: is the main file of project, this file is used for execute the program
 
@@ -30,7 +31,7 @@
 	-  tests/: folder with all project tests.
 
 
-## **2. <ins>Virtual Enviroment</ins>**
+### Virtual Enviroment
 
 Enviroment separated from local system for install all libraries that need the project.
 
