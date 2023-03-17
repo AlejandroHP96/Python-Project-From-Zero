@@ -125,8 +125,6 @@ We are going to used for continuos integration(CI)
 
 NOTE: Don't forget give to github token permission for use workflow.
 
-## ERROR CONTROL
-
 ### **2. <ins>Pre-commit</ins>**
 
 We going used pre-commit for check some things before git will do the commit.
