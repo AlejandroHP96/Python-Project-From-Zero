@@ -1,5 +1,9 @@
 # **<ins>Python Project from zero</ins>**
 
+## **<ins>Summary</ins>**
+	
+	1 - [Project Structure](## **1. <ins>Project structure</ins>**)
+
 ## **1. <ins>Project structure</ins>**
 
 	-  main.py: is the main file of project, this file is used for execute the program
@@ -49,6 +53,10 @@ NOTE: add enviroment folder in .gitignore file
 	
 	-  Windows: Scripts\bin\activate
 	-  Linux: Source env/bin/activate
+
+#### **Deactivate VENV**
+
+	-  deactivate
 
 ## **3. <ins>Linter</ins>**
 
@@ -123,3 +131,4 @@ If there is some error, git don't do the commit.
 	- pip install pre-commit
 	- create file named .pre-commit-config.yaml in root
 	- pre-commit install    
+

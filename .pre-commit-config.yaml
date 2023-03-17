@@ -3,22 +3,23 @@ repos:
     hooks:
       - id: pytest
         name: pytest
-        entry: pytest
+        entry: python -m pytest tests
         language: system
         pass_filenames: false
         stages: [commit]
         types: [python]
       - id: black
         name: black
-        entry: black
+        entry: black app
         language: system
-        stage: [commit]
         types: [python]
+        files: app/
       - id: pylint
         name: pylint
         entry: pylint
-        args: ["--rcfile=.pylintrc"]
+        args: [.pylintrc]
         language: system
         pass_filenames: true
         stages: [commit]
         types: [python]
+        files: app/
