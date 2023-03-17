@@ -2,7 +2,7 @@
 
 ## **<ins>Summary</ins>**
 	
-	1. [Project Structure](## **1. <ins>Project structure</ins>**)
+1. [Project Structure](## **1. <ins>Project structure</ins>**)
 
 ## **1. <ins>Project structure</ins>**
 
