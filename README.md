@@ -2,7 +2,7 @@
 
 ## Indice
 	
-- [Project Structure](#Project-structure)
+- [1. <ins>Project structure<ins>](#Project-structure)
 
 ## 1. <ins>Project structure<ins>
 
