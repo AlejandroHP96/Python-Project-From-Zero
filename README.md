@@ -1,8 +1,8 @@
 # **<ins>Python Project from zero</ins>**
 
-## **<ins>Summary</ins>**
+## Indice
 	
-- [Project Structure](#Project structure)
+- [Project Structure](#Project-structure)
 
 ## Project structure
 
